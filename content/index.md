@@ -1,25 +1,20 @@
 ---
 title: "Min fina titel"
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
+[FIGURE src="image/max.jpg?w=246" class="right" caption="Bild på mig som liten"]
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+Mitt namn är Max Assermark, jag är 21 och kommer från Katrineholm. Teknik har mer eller mindre alltid varit mitt största intresse. Jag tror det till stor del kommer från min fruktansvärt nördiga far. Det är tack vare honom som vi hade laptop-miniatyrer som pynt i julgranen och att jag fortfarande minns dagen då den gula lampan på ADSL-modemet slog om till grönt för första gången.
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
-
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
-
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
-
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
-
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Jag läste teknik på KTC (Katrineholms Tekniska College) med inriktning mot informationsteknik. Där programmerade vi en del och det var då jag insåg att det var den delen av teknikvärlden som lockade mest. Sen dess har jag jobbat som byggsäljare, men nu efter att ha flyttat ner till Karlskrona så känns det faktiskt väldigt skönt att ha återvänt till studierna. Utöver teknik så har jag under min uppväxt hållit på mycket med sport och musik, dock så har detta avtagit under de senare åren, men är förhoppningsvis något jag kan börja med igen nu när jag kommit ner hit till Sveriges näst mest soliga stad.
