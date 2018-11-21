@@ -1,10 +1,10 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: #424242;
-@bgColorBody: #fff;
+@bgColorHtml: grey; //#424242;
+@bgColorBody: grey;
 @colorBody: #333;
-@fontFamilyBody: serif;
+@fontFamilyBody: helvetica;
 
 html {
     overflow-y: scroll;
@@ -17,4 +17,32 @@ body {
     color: @colorBody;
     background-color: @bgColorBody;
     font: 100.01%/1 @fontFamilyBody;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+    border-top: 1px solid black;
+    clear: right;
+}
+
+.site-footer {
+    text-align: center;
+    color: grey;
+}
+
+.author-byline {
+    background-color: white;
+    padding: 0.5em;
+    width: 25em;
+    border: 1px solid black;
+    border-radius: 2px;
 }
