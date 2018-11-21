@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Design"
 views:
     byline:
         region: main
