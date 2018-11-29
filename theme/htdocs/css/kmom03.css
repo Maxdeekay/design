@@ -4380,7 +4380,14 @@ body {
   padding: 0;
   color: #333;
   background-color: grey;
-  font: 16px/1.5 helvetica;
+  font: 16px/1.5 "serif";
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
 }
 h1,
 h2,
@@ -4721,6 +4728,13 @@ hr::after {
 /**
     Header layout
 */
+.outer-wrap-header {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 .region-header-col-1 {
   display: none;
 }
@@ -4771,6 +4785,14 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 24px;
+}
+.region-breadcrumb ul {
+  display: flex;
+  flex-direction: row;
+}
+.region-breadcrumb li {
+  margin-right: 12px;
 }
 .region-flash {
   display: inline;
@@ -4779,6 +4801,7 @@ hr::after {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
+  margin-bottom: 24px;
 }
 .region-flash img {
   height: 10em;
@@ -4800,6 +4823,9 @@ hr::after {
 .region-sidebar-right .block {
   background-color: lightgrey;
 }
+ul {
+  list-style-type: none;
+}
 /**
     Footer layout
 */
@@ -4819,6 +4845,22 @@ hr::after {
   margin-right: 0.52083333%;
   color: grey;
 }
+.next-previous {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-bottom: 24px;
+}
+.next,
+.previous {
+  display: inline;
+  float: left;
+  width: 18.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
 /**
     Byline layout
 */
@@ -4831,6 +4873,7 @@ hr::after {
   background-color: white;
   border: 1px solid black;
   border-radius: 2px;
+  margin-bottom: 24px;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -4853,8 +4896,13 @@ hr::after {
   }
 }
 @media all and (max-width: 1025px) {
-  .wrap-sidebar {
-    display: none;
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
   .region-main {
     width: 100%;

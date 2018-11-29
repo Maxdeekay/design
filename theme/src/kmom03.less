@@ -35,24 +35,15 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
-
-
 //Show the grid
 .hgrid .inner-wrap {
     @gridImage: "../img/magic-number-@{magicNumber}.png";
     #desinax-hgrid.showGrid(@gridImage);
 }
 
-// Adapt the typographic grid to my style
-@fontFamilyBody: "serif";
-
-
-
 // Magic number and base font size
 @magicNumber: 24px;
 @fontSizeBody: 16px;
-
-
 
 /**
  * Base style to affect HTML elements on a general scale.
@@ -97,3 +88,6 @@
  */
  @bgColorHtml: grey;
  @bgColorBody: grey;
+
+// Adapt the typographic grid to my style
+@fontFamilyBody: "serif";
