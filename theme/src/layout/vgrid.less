@@ -1,0 +1,165 @@
+/**
+* Layout using vgrid.
+*/
+
+/**
+* Variables
+*/
+
+
+/**
+* General layout
+*/
+
+.row {
+    #desinax-vgrid.row();
+    //background-color: #0f0;
+    //margin-bottom: 12px;
+}
+
+/**
+    Header layout
+*/
+
+.region-header-col-1 {
+    display: none;
+}
+
+.region-header-col-2 li {
+    display: inline;
+    //margin-right: 0.5em;
+}
+
+.region-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.site-logo {
+    display: none;
+}
+
+/**
+    Main region layout
+*/
+.wrap-all {
+    //max-width: 70em;
+    //margin: 0 auto;
+    background-color: lightgrey;
+    //padding: 5px;
+    border-radius: 2px;
+}
+
+.hem-main {
+    //display: flex;
+    //flex-direction: row;
+}
+
+.region-main {
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(2);
+
+    &.has-sidebar {
+        #desinax-vgrid.push(0);
+    }
+
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+}
+
+.inner-wrap {
+    #desinax-vgrid.grid(1100px);
+}
+
+.inner-wrap-main article {
+    //display: flex;
+    //flex-direction: column;
+}
+
+.next-previous {
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: space-between;
+}
+
+.region-breadcrumb {
+    #desinax-vgrid.column(@columns);
+}
+
+.region-flash {
+    #desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(2);
+}
+
+.region-flash img {
+    height: 10em;
+    //width: 100%;
+}
+
+.article {
+    //overflow: hidden;
+}
+
+/**
+    Sidebar layout
+*/
+.region-sidebar-left,
+.region-sidebar-right {
+    #desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-right {
+    #desinax-vgrid.push(1);
+}
+
+.region-sidebar-right .block {
+    background-color: lightgrey;
+}
+
+/**
+    Footer layout
+*/
+.footer-column {
+    #desinax-vgrid.column(@columns / 3);
+
+    //width: 33%;
+    //float: left;
+    border-top: 1px solid black;
+    //clear: right;
+}
+
+.site-footer {
+    #desinax-vgrid.column(@columns);
+
+    color: grey;
+}
+
+/**
+    Byline layout
+*/
+.author-byline {
+    background-color: white;
+    //padding: 0.5em;
+    //width: 25em;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header,
+    &.inner-wrap-footer {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+@media all and (max-width: 1025px) {
+    .wrap-sidebar { display: none; }
+    .region-main { width: 100%; }
+    .region-flash img { display: none; }
+}
