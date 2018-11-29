@@ -4362,7 +4362,24 @@ template {
      * Enable all default typographic elements.
      */
 }
+.hgrid .inner-wrap {
+  background-image: url("../img/magic-number-24px.png");
+}
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: grey;
+}
 body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: grey;
   font: 16px/1.5 helvetica;
 }
 h1,
@@ -4648,25 +4665,6 @@ hr::after {
   left: 50%;
   padding: 0 0.25em;
   background-color: #fff;
-}
-.hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
-}
-/**
- * Base style to affect HTML elements on a general scale.
- */
-/**
- * Base style to affect HTML elements on a general scale.
- */
-html {
-  overflow-y: scroll;
-  background-color: grey;
-}
-body {
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: grey;
 }
 /**
  * Import the vertical grid.
