@@ -5253,6 +5253,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   background-color: #FFB6A8;
   width: 100%;
   font-family: Indie Flower;
+  border-bottom: 1px solid white;
 }
 body {
   color: black;
