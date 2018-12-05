@@ -1,0 +1,34 @@
+/*!
+ * Dark Stylesheet
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+@import "kmom04.less";
+@import "module/header_dark.less";
+
+@backgroundColor: #2e2e2e;
+@innerWrapColor: #303030;
+@textColor: silver;
+@bylineColor: #5d5d5d;
+
+@fontFamilyBody: Muli;
+@fontFamilyHeadings: Muli;
+
+body {
+    color: @textColor;
+}
+
+a {
+    color: @textColor;
+}
+
+.wrap-all {
+    background-color: @backgroundColor;
+}
+
+.region-sidebar-right .block {
+    background-color: @backgroundColor;
+}

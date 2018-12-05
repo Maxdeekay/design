@@ -4380,7 +4380,7 @@ body {
   padding: 0;
   color: #333;
   background-color: grey;
-  font: 16px/1.5 "serif";
+  font: 16px/1.5 helvetica;
 }
 a {
   color: black;
@@ -5223,6 +5223,3 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     display: none;
   }
 }
-/**
- * My own settings, not currently in their own module.
- */

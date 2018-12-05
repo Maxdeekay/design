@@ -1,4 +1,15 @@
 /*!
+ * Minimalistic Stylesheet
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afTLGKA.ttf) format('truetype');
+}
+/*!
  * Stylesheet for design kmom03.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
@@ -4380,7 +4391,7 @@ body {
   padding: 0;
   color: #333;
   background-color: grey;
-  font: 16px/1.5 "serif";
+  font: 16px/1.5 Muli;
 }
 a {
   color: black;
@@ -4395,7 +4406,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Muli;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5223,6 +5234,3 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     display: none;
   }
 }
-/**
- * My own settings, not currently in their own module.
- */
