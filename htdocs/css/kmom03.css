@@ -4875,6 +4875,9 @@ ul {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
+.stylechooser {
+  overflow: auto;
+}
 /**
     Byline layout
 */

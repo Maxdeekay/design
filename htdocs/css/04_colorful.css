@@ -1,7 +1,7 @@
 /*!
  * Colorful Stylesheet
  *
- * This stylesheet is for the design course and kmom04 where we use LESS.
+ * This stylesheet is for the design course.
  */
 @font-face {
   font-family: 'Muli';
@@ -4891,6 +4891,9 @@ ul {
   width: 18.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+.stylechooser {
+  overflow: auto;
 }
 /**
     Byline layout
