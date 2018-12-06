@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Normalize and reset the style.
@@ -4833,6 +4833,9 @@ hr::after {
 }
 ul {
   list-style-type: none;
+}
+.toc h4 {
+  margin-left: 8.85416667%;
 }
 /**
     Footer layout

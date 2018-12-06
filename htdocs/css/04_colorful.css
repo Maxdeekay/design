@@ -4851,6 +4851,9 @@ hr::after {
 ul {
   list-style-type: none;
 }
+.toc h4 {
+  margin-left: 8.85416667%;
+}
 /**
     Footer layout
 */
