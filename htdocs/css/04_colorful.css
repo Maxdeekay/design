@@ -16,9 +16,9 @@
   src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/m8JVjfNVeKWVnh3QMuKkFcZVaUuC.ttf) format('truetype');
 }
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Normalize and reset the style.
@@ -5266,6 +5266,9 @@ body {
 }
 a {
   color: black;
+}
+article a {
+  border-bottom: 1px solid black;
 }
 .wrap-all {
   background-color: #9AC4FF;

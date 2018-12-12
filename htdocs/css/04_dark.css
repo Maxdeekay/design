@@ -10,9 +10,9 @@
   src: local('Muli Regular'), local('Muli-Regular'), url(https://fonts.gstatic.com/s/muli/v12/7Auwp_0qiz-afTLGKA.ttf) format('truetype');
 }
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
  * Normalize and reset the style.
@@ -5254,6 +5254,9 @@ body {
 }
 a {
   color: silver;
+}
+article a {
+  border-bottom: 1px solid silver;
 }
 .wrap-all {
   background-color: #2e2e2e;
