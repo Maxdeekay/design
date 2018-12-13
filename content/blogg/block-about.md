@@ -1,3 +1,3 @@
-#### Nytt och Noterat
+#### Thailand 2009 & 2014
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+Korta inlägg kring mina vistelser utomlands genom åren.
