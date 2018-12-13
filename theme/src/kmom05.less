@@ -35,7 +35,7 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
-//Show the grid
+// Show the grid
 .hgrid .inner-wrap {
     @gridImage: "../img/magic-number-@{magicNumber}.png";
     #desinax-hgrid.showGrid(@gridImage);
@@ -84,6 +84,19 @@
 @import "@desinax/responsive-menu/less/media-queries.less";
 
 
+
+/**
+ * Figure and figcaption for images and o ther media using figure/figcaption
+*/
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
 
 /**
  * Importing the dark theme

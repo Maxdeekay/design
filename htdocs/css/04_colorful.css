@@ -4944,7 +4944,7 @@ ul {
     margin-right: 0.52083333%;
   }
   .region-main {
-    width: 100%;
+    width: 100% !important;
   }
   .region-flash img {
     display: none;
@@ -5104,10 +5104,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 }
 .rm-desktop li a:hover {
   color: inherit;
-  background-color: darkgrey;
-}
-.rm-desktop li:hover {
-  background-color: darkgrey;
+  background-color: inherit;
 }
 .rm-desktop li:hover > ul {
   left: 0;
