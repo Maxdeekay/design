@@ -1,5 +1,5 @@
 /*!
- * Minimalistic Stylesheet
+ * Dark Stylesheet
  *
  * This stylesheet is for the design course.
  */
@@ -4798,11 +4798,6 @@ hr::after {
   margin-left: auto;
   max-width: 1100px;
 }
-.next-previous {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
 .region-breadcrumb {
   display: inline;
   float: left;
@@ -4856,6 +4851,14 @@ ul {
 /**
     Footer layout
 */
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  border-top: 1px solid black;
+}
 .site-footer {
   text-align: center;
 }
@@ -4871,6 +4874,11 @@ ul {
   color: grey;
 }
 .next-previous {
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
   margin-bottom: 24px;
 }
 .next,
@@ -4893,7 +4901,7 @@ ul {
   width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: white;
+  background-color: #5d5d5d;
   padding: 0.5em;
   border: 1px solid black;
   border-radius: 2px;
@@ -5228,4 +5236,35 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   .rm-small {
     display: none;
   }
+}
+.rm-desktop li {
+  background-color: #2e2e2e;
+}
+.rm-desktop li:hover {
+  background-color: #2e2e2e;
+}
+.rm-navbar > ul.my-navbar.rm-desktop li > a:hover {
+  background-color: #2e2e2e;
+}
+body {
+  color: silver;
+}
+a {
+  color: silver;
+}
+article a {
+  border-bottom: 1px solid silver;
+}
+.wrap-all {
+  background-color: #2e2e2e;
+  display: none;
+}
+.region-sidebar-right .block {
+  background-color: #2e2e2e;
+}
+.inner-wrap-main {
+  padding: 10px;
+}
+.region-flash {
+  display: none;
 }

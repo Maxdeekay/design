@@ -1,0 +1,128 @@
+/*!
+ * Dark Stylesheet
+ *
+ * This stylesheet is for the design course.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+@import "kmom04.less";
+@import "module/header_dark.less";
+
+@backgroundColor: #2e2e2e00;
+@innerWrapColor: #303030;
+@textColor: silver;
+@bylineColor: #5d5d5d00;
+
+@fontFamilyBody: Muli;
+@fontFamilyHeadings: Muli;
+
+body {
+    color: @textColor;
+}
+
+a {
+    color: @textColor;
+}
+
+article a {
+    border-bottom: 1px solid @textColor;
+}
+
+.wrap-all {
+    background-image: url("../image/prism.png?f0=brightness,20&sharpen");
+}
+
+.region-sidebar-right .block {
+    background-color: @backgroundColor;
+}
+
+.inner-wrap-main {
+    padding: 10px;
+    background:rgba(46,46,46,0.7);
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.region-flash {
+    display: none;
+}
+
+.rm-submenu-button ul {
+    border: 1px solid white;
+}
+
+.author-byline {
+    border: 1px solid lightgreen;
+    border-radius: 3px;
+}
+
+img {
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.autor-byline {
+    margin-left: 10px;
+}
+
+.site-footer {
+    border-top: 1px solid lightgreen;
+    margin-top: 10px;
+}
+
+.outer-wrap-header {
+    background:rgba(46,46,46,0.8);
+    font-family: Staatliches;
+    font-size: 34px;
+    border-bottom: 1px solid lightgreen;
+}
+
+.rm-desktop li:hover {
+    background: rgba(80,80,80);
+}
+
+.rm-navbar > ul.my-navbar.rm-desktop li > a:hover {
+    color: lightgreen;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-column {
+    width: 33%;
+    text-align: center;
+}
+
+.footer-column-x {
+    height: 150px;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    border-right: 1px solid lightgreen;
+}
+
+.outer-wrap-footer {
+    background: rgba(46,46,46,0.8);
+    margin-top: 10px;
+}
+
+.next-previous {
+    color: lightgreen;
+}
+
+.region-sidebar-left h4 {
+    border-color: lightgreen;
+}
+
+.breadcrumb-list li::after {
+    content: "  » ";
+}
+
+.breadcrumb-list li:last-child:after {
+    content: "";
+}
