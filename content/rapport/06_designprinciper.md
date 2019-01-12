@@ -1,4 +1,4 @@
-Designprinciper
+Analys av designprinciper
 =======================
 
 Denna uppgift handlar om att analysera webbplatsers användning och tolkning av designelement samt designprinciper.

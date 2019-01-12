@@ -1,0 +1,170 @@
+/*!
+ * Dark Stylesheet
+ *
+ * This stylesheet is for the design course.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import "kmom04.less";
+@import "module/header_dark.less";
+
+@backgroundColor: #2e2e2e00;
+@innerWrapColor: #303030;
+@textColor: silver;
+@bylineColor: #5d5d5d00;
+@spaceblue : rgba(68,80,135);
+
+@fontFamilyBody: Raleway;
+@fontFamilyHeadings: Raleway;
+
+body {
+    color: @textColor;
+    background-image: url("../image/theme/milkyway.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: @textColor;
+}
+
+article a {
+    border-bottom: 1px solid @textColor;
+}
+
+.wrap-all {
+    background-color: transparent;
+}
+
+.region-sidebar-right .block {
+    background-color: @backgroundColor;
+}
+
+.region-main {
+    padding: 10px;
+    background:rgba(35,60,94,0.8);
+    margin-top: 10px;
+    min-height: 650px;
+}
+
+.route- .inner-wrap-main {
+    margin-top: 100vh;
+}
+
+.region-flash {
+    display: none;
+}
+
+.inner-wrap-flash {
+
+}
+
+.rm-submenu-button ul {
+    border: 1px solid white;
+}
+
+.author-byline {
+    border: 1px solid @spaceblue;
+    border-radius: 3px;
+}
+
+img {
+    border: 1px solid @spaceblue;
+}
+
+.autor-byline {
+    margin-left: 10px;
+}
+
+.site-footer {
+    border-top: 1px solid @spaceblue;
+    margin-top: 10px;
+}
+
+.inner-wrap-header {
+    background:rgba(35,60,94,0);
+    font-size: 34px;
+    border: 1px solid @spaceblue;
+}
+
+.region-main {
+    background-color: transparent;
+}
+
+.region-header-col-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:rgba(35,60,94,0.8);
+    border: 1px solid @spaceblue;
+}
+
+.region-header-col-3 {
+    display: none;
+}
+
+.rm-desktop li:hover {
+    color: @textColor;
+}
+
+.rm-navbar > ul.my-navbar.rm-desktop li > a:hover {
+    color: @spaceblue;
+}
+
+.footer-column-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-column {
+    width: 33%;
+    text-align: center;
+}
+
+.footer-column-x {
+    height: 150px;
+}
+
+.footer-column-1,
+.footer-column-2 {
+    border-right: 1px solid @spaceblue;
+}
+
+.outer-wrap-footer {
+    background: rgba(35,60,94,0.8);
+    margin-top: 50px;
+}
+
+.next-previous {
+    color: @spaceblue;
+}
+
+.breadcrumb-list li::after {
+    content: "  » ";
+}
+
+.breadcrumb-list li:last-child:after {
+    content: "";
+}
+
+h1, h2, h4 {
+    border-color: @spaceblue;
+}
+
+h3, h5 {
+    border: none;
+}
+
+.outside {
+    margin-top: -30vh;
+    position: absolute;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}

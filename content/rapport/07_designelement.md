@@ -1,6 +1,5 @@
 Designelement
 =======================
-Angående temat "kmom06-designelement".
 
 Tekniker
 -----------------------
