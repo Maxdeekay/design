@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for Kmom06 in the design course
- * With a focus on Design Elements
+ * Designelement
  *
+ * Stylesheet for Kmom06 in the design course 
  */
 /**
  * Normalize and reset the style.
@@ -5419,6 +5419,7 @@ article a {
 }
 .rm-submenu-button ul {
   border: 1px solid white;
+  z-index: 10;
 }
 .author-byline {
   border: 1px solid lightgreen;

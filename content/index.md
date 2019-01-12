@@ -11,10 +11,8 @@ views:
                 route: block/byline
 ---
 
-<div class="outside">
-    <h1>Min me-sida i kursen design</h1>
-    <div class="arrow"></div>
-</div>
+<h1 class="outside">Min me-sida i kursen design</h1>
+<div class="arrow"></div>
 
 [FIGURE src="image/max.jpg?w=246" class="right w33" caption="Bild på mig som liten"]
 

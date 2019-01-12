@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for Kmom06 in the design course
- * With a focus on Design Elements
+ * Designprinciper
  *
+ * Stylesheet for Kmom06 in the design course
  */
 /**
  * Normalize and reset the style.
@@ -5344,6 +5344,12 @@ figure.figure.right {
   font-weight: 400;
   src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v7/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD8.ttf) format('truetype');
+}
 /*!
  * Stylesheet for design kmom04.
  *
@@ -5406,30 +5412,19 @@ article a {
 .region-sidebar-right .block {
   background-color: #2e2e2e00;
 }
-.region-main {
-  padding: 10px;
-  background: rgba(35, 60, 94, 0.8);
-  margin-top: 10px;
-  min-height: 650px;
-}
 .route- .inner-wrap-main {
   margin-top: 100vh;
 }
 .region-flash {
   display: none;
 }
-.rm-submenu-button ul {
-  border: 1px solid white;
-}
 .author-byline {
   border: 1px solid rgba(68, 80, 135);
   border-radius: 3px;
+  background: rgba(35, 60, 94);
 }
 img {
   border: 1px solid rgba(68, 80, 135);
-}
-.autor-byline {
-  margin-left: 10px;
 }
 .site-footer {
   border-top: 1px solid rgba(68, 80, 135);
@@ -5440,24 +5435,9 @@ img {
   font-size: 34px;
   border: 1px solid rgba(68, 80, 135);
 }
-.region-main {
+.outer-wrap-header {
+  margin-bottom: 100px;
   background-color: transparent;
-}
-.region-header-col-2 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgba(35, 60, 94, 0.8);
-  border: 1px solid rgba(68, 80, 135);
-}
-.region-header-col-3 {
-  display: none;
-}
-.rm-desktop li:hover {
-  color: silver;
-}
-.rm-navbar > ul.my-navbar.rm-desktop li > a:hover {
-  color: rgba(68, 80, 135);
 }
 .footer-column-wrapper {
   display: flex;
@@ -5475,7 +5455,7 @@ img {
   border-right: 1px solid rgba(68, 80, 135);
 }
 .outer-wrap-footer {
-  background: rgba(35, 60, 94, 0.8);
+  background: rgba(35, 60, 94);
   margin-top: 50px;
 }
 .next-previous {
@@ -5497,11 +5477,66 @@ h5 {
   border: none;
 }
 .outside {
-  margin-top: -30vh;
+  margin-top: -85vh;
   position: absolute;
+  border: none;
+  font-family: Shadows Into Light;
+  font-size: 72px;
+  color: white;
+  overflow: hidden;
 }
 .arrow {
-  width: 50px;
-  height: 50px;
-  background-color: white;
+  margin-top: -40vh;
+  left: 50%;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 45px solid rgba(255, 255, 255, 0.5);
+  -webkit-animation: arrow 1s infinite;
+}
+@-webkit-keyframes arrow {
+  0%,
+  100% {
+    bottom: 6vh;
+  }
+  50% {
+    bottom: 4vh;
+  }
+}
+.region-header {
+  z-index: 10;
+}
+.inner-wrap-header {
+  width: 101%;
+}
+.region-header-col-2 {
+  position: fixed;
+  width: 101%;
+  top: 0;
+  left: 0;
+  background: rgba(35, 60, 94);
+  border: 1px solid rgba(68, 80, 135);
+  display: flex;
+  flex-direction: column;
+}
+.rm-desktop li:hover {
+  background: rgba(35, 60, 94);
+  color: white;
+}
+.region-sidebar-left {
+  float: left;
+}
+.rm-navbar ul > li > a {
+  color: white;
+}
+.outer-wrap-main {
+  margin-top: 100px;
+}
+.route- .inner-wrap-main {
+  background-color: transparent;
+}
+.inner-wrapper-main {
+  background: rgba(35, 60, 94, 0.8);
 }

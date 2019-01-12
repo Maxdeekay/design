@@ -4,8 +4,8 @@
  * This stylesheet is for the design course.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
 @import "kmom04.less";
 @import "module/header_dark.less";
@@ -48,18 +48,33 @@ article a {
     margin-top: 100vh;
 }
 
+.inner-wrap-main {
+    padding: 10px;
+    border-radius: 3px;
+    min-height: 650px;
+}
+
 .region-flash {
     display: none;
+}
+
+.rm-submenu-button ul {
+    border: 1px solid white;
+    z-index: 10;
 }
 
 .author-byline {
     border: 1px solid @spaceblue;
     border-radius: 3px;
-    background:rgba(35,60,94);
 }
 
 img {
-    border: 1px solid @spaceblue;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+.autor-byline {
+    margin-left: 10px;
 }
 
 .site-footer {
@@ -67,15 +82,19 @@ img {
     margin-top: 10px;
 }
 
-.inner-wrap-header {
-    background:rgba(35,60,94,0);
+.outer-wrap-header {
+    background:rgba(46,46,46,0.8);
+    font-family: Raleway;
     font-size: 34px;
-    border: 1px solid @spaceblue;
+    border-bottom: 1px solid @spaceblue;
 }
 
-.outer-wrap-header {
-    margin-bottom: 100px;
-    background-color: transparent;
+.rm-desktop li:hover {
+    background: rgba(80,80,80);
+}
+
+.rm-navbar > ul.my-navbar.rm-desktop li > a:hover {
+    color: @spaceblue;
 }
 
 .footer-column-wrapper {
@@ -122,6 +141,22 @@ h3, h5 {
     border: none;
 }
 
+.region-header-col-2 {
+    position: fixed;
+    width: 101%;
+    top: 0;
+    left: 0;
+    background:rgba(35,60,94);
+    border: 1px solid @spaceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.outer-wrap-header {
+    margin-bottom: 100px;
+    background-color: transparent;
+}
+
 .outside {
     margin-top: -85vh;
     position: absolute;
@@ -129,7 +164,6 @@ h3, h5 {
     font-family: Shadows Into Light;
     font-size: 72px;
     color: white;
-    overflow: hidden;
 }
 
 .arrow {
@@ -154,46 +188,18 @@ h3, h5 {
    }
 }
 
-.region-header {
-    z-index: 10;
-}
-
-.inner-wrap-header {
-    width: 101%;
-}
-
-.region-header-col-2 {
-    position: fixed;
-    width: 101%;
-    top: 0;
-    left: 0;
-    background:rgba(35,60,94);
-    border: 1px solid @spaceblue;
-    display: flex;
-    flex-direction: column;
-}
-
 .rm-desktop li:hover {
     background:rgba(35,60,94);
-    color: white;
-}
-
-.region-sidebar-left {
-    float: left;
 }
 
 .rm-navbar ul > li > a {
     color: white;
 }
 
-.outer-wrap-main {
-    margin-top: 100px;
-}
-
-.route- .inner-wrap-main {
-    background-color: transparent;
-}
-
-.inner-wrap-main {
+.region-main {
     background:rgba(35,60,94,0.8);
+}
+
+.region-main article {
+    padding: 5px;
 }
