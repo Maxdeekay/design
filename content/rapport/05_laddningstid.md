@@ -20,7 +20,7 @@ När det kommer till metod så har jag valt att arbeta med PageSpeed Insights sa
 
 Resultat
 -----------------------
-<h5>Aftonbladet</h5>
+<h3>Aftonbladet</h3>
 <figure class="figure right">
     <img src="image/snapshots/aftonbladet.png?w=450"></img>
 </figure>
@@ -29,7 +29,7 @@ När jag körde Aftonbladets hemsida genom PageSpeed Insights så fick den 70 i 
 
 Genom mina tester så fick jag reda på att det tar Aftonbladet i snitt 10,28 sekunder att ladda fullt, vilket jag tror beror till stor del på mängden bilder samt självklart alla annonser och reklamer, då jag gjorde alla dessa tester utan AdBlock. Det går dock att börja använda sidan innan den är fullt laddad, det sista som laddas in är annonser och reklamer. Mängden data som behövdes läsas in var 2,77 MB, vilket gör den till den största hemsida av dom jag undersökt. Bilderna i sig är små och lagom anpassade, men den stora mängden bilder och animerade annonser är det som höjer resurserna och ger Aftonbladet förstaplatsen.
 
-<h5>Tinker</h5>
+<h3>Tinker</h3>
 <figure class="figure right">
     <img src="image/snapshots/tinker.png?w=450"></img>
 </figure>
@@ -38,7 +38,7 @@ Tinker tar ledningen med sitt desktopresultat 89 på PageSpeed. Dock när det ko
 
 Efter DevTools-testerna så har jag kommit fram till att Tinker tar i snitt 2,01 sekunder att ladda fullt i sin desktopversion, vilket utan tvekan är det snabbaste resultatet av alla tester jag gjort. Resursmässigt så tar hemsidan upp 2,77 MB, vilket beror på dom högupplösta och felanpassade bilderna. Något annat intressant jag fick reda på var att Tinker har med en del oanvänd CSS, vilket faktiskt förlänger laddningsprocessen med 0,39 sekunder.
 
-<h5>Dailymotion</h5>
+<h3>Dailymotion</h3>
 <figure class="figure right">
     <img src="image/snapshots/dailymotion.png?w=450"></img>
 </figure>

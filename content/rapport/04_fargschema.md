@@ -21,7 +21,7 @@ För att undersöka webbplatsernas färgpalett så använder jag mig av Mac OS i
 Resultat
 -----------------------
 
-<h5>Tinker</h5>
+<h3>Tinker</h3>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -37,7 +37,7 @@ Jag gillar denna typ av design då den lägger fokus på innehållet. Den är ä
 
 <img src="image/snapshots/tinker.png?w=450"></img>
 
-<h5>Uber Sign Language</h5>
+<h3>Uber Sign Language</h3>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -54,7 +54,7 @@ Uber Sign Language är en webbplats skapad för att hjälpa Uber-användare komm
 
 <img src="image/snapshots/uber_signlanguage.png?w=450"></img>
 
-<h5>Telia</h5>
+<h3>Telia</h3>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>

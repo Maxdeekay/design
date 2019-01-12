@@ -18,7 +18,7 @@ Som grund för min utvärdering av sidorna så använde jag kursmaterialet, spec
 Resultat
 -----------------------
 
-<h5>Inet</h5>
+<h3>Inet</h3>
 <figure class="figure right">
     <img src="image/snapshots/inet.png?w=450"></img>
 </figure>
@@ -31,7 +31,7 @@ Jag anser att deras webbplats gynnar deras ändamål. Dom lägger fokus på bild
 
 Känslan jag får av hemsidan är väldigt bra balans. Detta når den tack vare sitt välanvända gridsystem då allting följer väldigt raka linjer och bygger upp en tydlig struktur som återfinns överallt på webbplatsen. Responsiviteten funkar bra då Inet har valt att använda sig av en vertikal meny. När man förminskar fönstret så gömmer sig också menyn och det tillkommer en knapp längst upp till vänster som visar den igen, ovanpå innehållet.
 
-<h5>Dustin</h5>
+<h3>Dustin</h3>
 <figure class="figure right">
     <img src="image/snapshots/dustinhome.png?w=450"></img>
 </figure>
@@ -42,7 +42,7 @@ Dustins hemsida påminner om Inets men den känns rörigare. Dom använder sig a
 
 Precis som Inet så använder Dustin sig av rektangulära och linjära designelement samt starkt kontrast mellan rubriker och knappar. Hela webbplatsen följer inte samma designprinciper. Startsidan består av en enda horisontell navbar med en stor undermeny när man håller musen över en kategori. Men när man klickar på en kategori och kommer till "browse"-läget så dyker det upp breadcrumbs och en ny meny till vänster som låter användaren specificera sin sökning ytterligare. Objekten i listan använder röd för att visa nedsatt pris och grön för att lägga till artikeln i kundvagnen. Dessa färger skapar starkt kontrast och drar tittarens uppmärksamhet till det låga priset och leder vidare genom vägen till ett köp. Dustin erbjuder inte hellre någon vettig responsivitet, om man vill använda deras meny på en mindre enhet så får man navigera runt med ett kikarsikte.
 
-<h5>MaxGaming</h5>
+<h3>MaxGaming</h3>
 <figure class="figure right">
     <img src="image/snapshots/maxgaming.png?w=450"></img>
 </figure>
