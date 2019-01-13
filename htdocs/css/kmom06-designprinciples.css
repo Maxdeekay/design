@@ -4380,7 +4380,7 @@ body {
   padding: 0;
   color: #333;
   background-color: grey;
-  font: 16px/1.5 Raleway;
+  font: 16px/1.5 Arial;
 }
 a {
   color: black;
@@ -4395,7 +4395,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Raleway;
+  font-family: Arial;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5484,6 +5484,7 @@ h5 {
   font-size: 72px;
   color: white;
   overflow: hidden;
+  z-index: 1;
 }
 .arrow {
   margin-top: -40vh;
@@ -5506,7 +5507,11 @@ h5 {
   }
 }
 .region-header {
+  position: fixed;
   z-index: 10;
+}
+.region-header-col-3 {
+  display: none;
 }
 .inner-wrap-header {
   width: 101%;
@@ -5533,10 +5538,9 @@ h5 {
 }
 .outer-wrap-main {
   margin-top: 100px;
+  min-height: 1000px;
 }
-.route- .inner-wrap-main {
-  background-color: transparent;
-}
-.inner-wrapper-main {
+.inner-wrap-main {
   background: rgba(35, 60, 94, 0.8);
+  padding: 10px;
 }

@@ -130,6 +130,7 @@ h3, h5 {
     font-size: 72px;
     color: white;
     overflow: hidden;
+    z-index: 1;
 }
 
 .arrow {
@@ -155,7 +156,12 @@ h3, h5 {
 }
 
 .region-header {
+    position: fixed;
     z-index: 10;
+}
+
+.region-header-col-3 {
+    display: none;
 }
 
 .inner-wrap-header {
@@ -188,12 +194,10 @@ h3, h5 {
 
 .outer-wrap-main {
     margin-top: 100px;
-}
-
-.route- .inner-wrap-main {
-    background-color: transparent;
+    min-height: 1000px;
 }
 
 .inner-wrap-main {
     background:rgba(35,60,94,0.8);
+    padding: 10px;
 }
