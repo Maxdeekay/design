@@ -45,6 +45,11 @@ return [
                         "url" => "redovisning/kmom05",
                         "title" => "Redovisning för kmom05.",
                     ],
+                    [
+                        "text" => "Kmom06",
+                        "url" => "redovisning/kmom06",
+                        "title" => "Redovisning för kmom06.",
+                    ],
                 ],
             ],
         ],
@@ -63,6 +68,21 @@ return [
                         "text" => "Laddningstid",
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport för kmom05.",
+                    ],
+                    [
+                        "text" => "Analys av designprinciper",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport för kmom06.",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport för kmom06.",
+                    ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport för kmom06.",
                     ],
                 ],
             ],
